@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!-- Generated with Verbotics CellBuilder -->
+<robot name="Single_Axis_Positioner">
+	<group name="Group">
+		<joint name="Driver_Base_joint" />
+	</group>
+</robot>

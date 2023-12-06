@@ -1,0 +1,27 @@
+{
+  "format": 2,
+  "uuid": "2b739bb2-cbb0-495f-861c-97cfce8ff333",
+  "name": "HD_Gantry",
+  "version": "0.0.0",
+  "description": "",
+  "author": "",
+  "allowSurfaceToolpaths": false,
+  "robots": [
+
+  ],
+  "stations": [
+
+  ],
+  "tasks": [
+
+  ],
+  "jointNames": {
+
+  },
+  "robotNames": {
+
+  },
+  "referenceLinks": [
+
+  ]
+}

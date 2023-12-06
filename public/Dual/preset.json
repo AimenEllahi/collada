@@ -1,0 +1,58 @@
+{
+  "name": "Dual_Axis_Positioner",
+  "author": "",
+  "description": "Final draft code for the double axis positioner preset",
+  "version": "3.0.0",
+  "manufacturer": "Generic",
+  "jointNames": {
+
+  },
+  "robotNames": {
+
+  },
+  "tags": [
+
+  ],
+  "parameters": [
+    {
+      "id": "payload",
+      "label": "Payload",
+      "type": "real",
+      "default": 5000,
+      "min": 500,
+      "max": 20000
+    },
+    {
+      "id": "height",
+      "label": "Fixture distance",
+      "type": "real",
+      "default": 750,
+      "min": 750,
+      "max": 2750
+    },
+    {
+      "id": "diameter",
+      "label": "Rotational diameter of the workpiece",
+      "type": "real",
+      "default": 500,
+      "min": 500,
+      "max": 4000
+    },
+    {
+      "id": "tilt",
+      "label": "Height to the tilt axis",
+      "type": "real",
+      "default": 1500,
+      "min": 750,
+      "max": 2250
+    },
+    {
+      "id": "toggle",
+      "label": "Tilt height (0) vs Fixture distance (1)",
+      "type": "real",
+      "default": 0,
+      "min": 0,
+      "max": 1
+    }
+  ]
+}

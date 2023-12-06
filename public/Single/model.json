@@ -1,0 +1,27 @@
+{
+  "format": 2,
+  "uuid": "6e991147-7d85-44a0-953c-5b67b2f661e9",
+  "name": "Single_Axis_Positioner",
+  "version": "0.0.0",
+  "description": "",
+  "author": "",
+  "allowSurfaceToolpaths": false,
+  "robots": [
+
+  ],
+  "stations": [
+
+  ],
+  "tasks": [
+
+  ],
+  "jointNames": {
+
+  },
+  "robotNames": {
+
+  },
+  "referenceLinks": [
+
+  ]
+}

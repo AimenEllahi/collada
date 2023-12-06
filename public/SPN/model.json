@@ -1,0 +1,27 @@
+{
+  "format": 2,
+  "uuid": "fa876385-0af4-4223-b27a-07733165750e",
+  "name": "SPN-V Single Axis Positioner V2.0",
+  "version": "0.0.0",
+  "description": "",
+  "author": "",
+  "allowSurfaceToolpaths": false,
+  "robots": [
+
+  ],
+  "stations": [
+
+  ],
+  "tasks": [
+
+  ],
+  "jointNames": {
+
+  },
+  "robotNames": {
+
+  },
+  "referenceLinks": [
+
+  ]
+}

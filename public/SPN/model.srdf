@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!-- Generated with Verbotics CellBuilder -->
+<robot name="SPN-V Single Axis Positioner V2.0">
+	<group name="Group">
+		<chain base_link="base_link" tip_link="workpiece_link" />
+	</group>
+</robot>

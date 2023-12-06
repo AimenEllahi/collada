@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!-- Generated with Verbotics CellBuilder -->
+<robot name="HD_Gantry">
+	<group name="Group">
+		<chain base_link="base_link" tip_link="Z-axis_link" />
+	</group>
+</robot>

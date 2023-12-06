@@ -1,0 +1,27 @@
+{
+  "format": 2,
+  "uuid": "e523daee-6df2-4cab-a8f3-3a24ee764e44",
+  "name": "Dual_Axis_Positioner",
+  "version": "0.0.0",
+  "description": "",
+  "author": "",
+  "allowSurfaceToolpaths": false,
+  "robots": [
+
+  ],
+  "stations": [
+
+  ],
+  "tasks": [
+
+  ],
+  "jointNames": {
+
+  },
+  "robotNames": {
+
+  },
+  "referenceLinks": [
+
+  ]
+}

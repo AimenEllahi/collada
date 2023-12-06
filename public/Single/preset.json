@@ -1,0 +1,50 @@
+{
+  "name": "Single_Axis_Positioner",
+  "author": "",
+  "description": "Single Axis Positioner preset with multiple mesh selection and no tailstock option",
+  "version": "3.0.0",
+  "manufacturer": "Generic",
+  "jointNames": {
+
+  },
+  "robotNames": {
+
+  },
+  "tags": [
+
+  ],
+  "parameters": [
+    {
+      "id": "payload",
+      "label": "Payload",
+      "type": "real",
+      "default": 1500,
+      "min": 300,
+      "max": 60000
+    },
+    {
+      "id": "height",
+      "label": "Height to the rotational axis",
+      "type": "real",
+      "default": 1250,
+      "min": 400,
+      "max": 2250
+    },
+    {
+      "id": "fixture_distance",
+      "label": "Fixture distance with tailstock",
+      "type": "real",
+      "default": 1800,
+      "min": 1000,
+      "max": 10000
+    },
+    {
+      "id": "tailstock",
+      "label": "Tailstock",
+      "type": "real",
+      "default": 1,
+      "min": 0,
+      "max": 1
+    }
+  ]
+}

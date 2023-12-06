@@ -1,0 +1,58 @@
+{
+  "name": "HD_Gantry",
+  "author": "",
+  "description": "Test track and pillar model for HD Pillar Gantry",
+  "version": "3.0.0",
+  "manufacturer": "Generic",
+  "jointNames": {
+
+  },
+  "robotNames": {
+
+  },
+  "tags": [
+
+  ],
+  "parameters": [
+    {
+      "id": "x_stroke",
+      "label": "X-axis stroke length",
+      "type": "real",
+      "default": 3000,
+      "min": 1000,
+      "max": 39000
+    },
+    {
+      "id": "y_stroke",
+      "label": "Y-axis stroke length",
+      "type": "real",
+      "default": 2000,
+      "min": 2000,
+      "max": 4000
+    },
+    {
+      "id": "z_stroke",
+      "label": "Z-axis stroke length",
+      "type": "real",
+      "default": 2000,
+      "min": 1500,
+      "max": 3000
+    },
+    {
+      "id": "height",
+      "label": "Height to the flange",
+      "type": "real",
+      "default": 2000,
+      "min": 2000,
+      "max": 7000
+    },
+    {
+      "id": "weld",
+      "label": "Weld package",
+      "type": "real",
+      "default": 0,
+      "min": 0,
+      "max": 1
+    }
+  ]
+}
