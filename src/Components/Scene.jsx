@@ -4,6 +4,7 @@ import { Environment } from "@react-three/drei";
 import { ColladaLoader } from "three/examples/jsm/loaders/ColladaLoader";
 import { useLoader } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
+import SPN from "./Models/SPN";
 import Loader from "./Loader";
 
 const Model = ({ model, modelKey }) => {
@@ -51,12 +52,14 @@ export default function Scene() {
 
   return (
     <div>
-      <div className="fixed top-0 left-0 w-screen h-screen">
-        <Canvas className="z-10">
+      <div className='fixed top-0 left-0 w-screen h-screen'>
+        <Canvas className='z-10'>
           <ambientLight intensity={1} />
+          <directionalLight intensity={0.5} />
           <Suspense fallback={<Loader />}>
-            <Environment preset="apartment" />
-            {Object.values(models).map((model) => (
+            <Environment preset='sunset' />
+            <SPN />
+            {/* {Object.values(models).map((model) => (
               <group key={model.key}>
                 {model.paths.map((path, index) => (
                   <Model
@@ -70,7 +73,7 @@ export default function Scene() {
                   />
                 ))}
               </group>
-            ))}
+            ))} */}
           </Suspense>
           <OrbitControls />
         </Canvas>
